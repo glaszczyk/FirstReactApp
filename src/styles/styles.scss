@@ -1,0 +1,58 @@
+.main-table {
+	background-color: #ddd;
+}
+.add-record {
+	height: 44px;
+	display: flex;
+	align-items: center;
+	&__label {
+		margin: 0 10px 0 20px;
+	}
+	&__input {
+		height: 24px;
+	}
+	&__button {
+		margin: 0 10px;
+	}
+}
+.search {
+	height: 44px;
+	display: flex;
+	align-items: center;
+	&__label {
+		margin: 0 10px 0 20px;
+	}
+	&__input {
+		height: 24px;
+	}
+	&__button {
+		margin: 0 10px;
+	}
+}
+.header {
+	display: flex;
+	height: 34px;
+	align-items: center;
+	&__name {
+		width: 150px;
+	}
+	&__age {
+		width: 150px;
+	}
+}
+
+.table-row {
+	display: flex;
+	height: 24px;
+	align-items: center;
+	border-top: 1px solid #999;
+	&__name {
+		width: 150px;
+		text-align: center;
+	}
+	&__age {
+		width: 150px;
+		text-align: center;
+	}
+}
+
