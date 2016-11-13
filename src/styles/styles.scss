@@ -46,6 +46,13 @@
 	height: 24px;
 	align-items: center;
 	border-top: 1px solid #999;
+	&--user {
+		display: flex;
+		height: 24px;
+		align-items: center;
+		border-top: 1px solid #999;
+		background-color: hsl(210, 47%, 84%);
+	}
 	&__name {
 		width: 150px;
 		text-align: center;
