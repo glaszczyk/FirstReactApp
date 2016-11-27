@@ -29,6 +29,11 @@ var DATA = [
 		id: myId(),
 		name: "Bill",
 		age: 45
+	},
+	{
+		id: myId(),
+		name: "Ala",
+		age: 18
 	}
 ];
 
@@ -44,13 +49,21 @@ var user = "Alice";
 // 			TableRow
 
 class SimpleApp extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			searchInput: "",
+			addNameInput: "",
+			addAgeInput: ""
+		}
+	}
 	render() {
 		return (
 			<main>
 				<p>Current user: {user}</p>
 				<AddRecord />
 				<Search />
-				<Table rows={ DATA } user={ user } />
+				<Table rows={ DATA } user={ user } search={ this.state.searchInput } />
 			</main>
 		);
 	}

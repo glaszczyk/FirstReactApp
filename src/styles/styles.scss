@@ -16,17 +16,18 @@
 	}
 }
 .search {
-	height: 44px;
-	display: flex;
-	align-items: center;
+	// height: 44px;
+	// display: flex;
+	// align-items: center;
 	&__label {
-		margin: 0 10px 0 20px;
+		margin: 10px 10px 10px 20px;
 	}
 	&__input {
 		height: 24px;
+		margin-bottom: 10px;
 	}
 	&__button {
-		margin: 0 10px;
+		margin: 20px 10px;
 	}
 }
 .header {
